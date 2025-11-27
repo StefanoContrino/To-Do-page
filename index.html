@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do page</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.8-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./bootstrap-5.3.8-dist/js/bootstrap.min.js">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <section>
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-12 col-md-6 mt-4">
+                <div class="card">
+                    <div class="card-header">
+                        Francese<button type="button" id="lan-add-btn" class="btn btn-outline-dark btn-sm me-3 ms-3" disabled>Aggiungi riga</button><button type="button" id="lan-delete-btn" class="btn btn-outline-dark btn-sm" disabled>Elimina riga</button>
+                    </div>
+                    <ul id="lan" class="list-group list-group-flush">
+                        <li class="list-group-item">
+
+                            <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                            <label class="form-check-label" for="checkDefault">
+                                <span id="lan-date-1"></span>
+                            </label>
+
+                        </li>
+                        <button type="button" id="lan-btn-1" class="btn btn-outline-dark btn-sm">Modifica</button>
+
+                        <li class="list-group-item">
+
+                            <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                            <label class="form-check-label" for="checkDefault">
+                                <span id="lan-date-2"></span>
+                                
+                            </label>
+
+                        </li>
+                        <button type="button" id="lan-btn-2" class="btn btn-outline-dark btn-sm">Modifica</button>
+                        <li class="list-group-item">
+
+                            <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                            <label class="form-check-label" for="checkDefault">
+                                <span id="lan-date-3"></span>
+                            </label> 
+                            
+                            
+                        </li>
+                        <button type="button" id="lan-btn-3" class="btn btn-outline-dark btn-sm">Modifica</button>
+                    
+                        <li class="list-group-item">
+
+                            <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                            <label class="form-check-label" for="checkDefault">
+                                <span id="lan-date-4"></span>
+                            </label> 
+                            
+                            
+                        </li>
+                        <button type="button" id="lan-btn-4" class="btn btn-outline-dark btn-sm">Modifica</button>
+
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 mt-4">
+                <div class="card">
+                    <div class="card-header">
+                        Hobby<button type="button" id="lan-add-btn" class="btn btn-outline-dark btn-sm me-3 ms-3" disabled>Aggiungi riga</button><button type="button" id="lan-delete-btn" class="btn btn-outline-dark btn-sm" disabled>Elimina riga</button>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+
+                            <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                            <label class="form-check-label" for="checkDefault">
+                                Pianoforte
+                            </label>
+
+                        </li>
+                        <li class="list-group-item">
+
+                            <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                            <label class="form-check-label" for="checkDefault">
+                                Scrittura [TLODN & PDAVIM]
+                            </label>
+
+                        </li>
+                        <li class="list-group-item">
+
+                            <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                            <label class="form-check-label" for="checkDefault">
+                                Lettura
+                            </label>
+
+                        </li>
+                        <li class="list-group-item">
+
+                            <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                            <label class="form-check-label" for="checkDefault">
+                                Allenamento
+                            </label>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+        
+
+    </section>
+
+    <section>
+
+        <div class="container">
+
+            <div class="row d-flex justify-content-center">
+                <div class="col-12 col-md-6 mt-4"">
+
+
+                    <div class="card">
+                        <div class="card-header">
+                            Impegni<button type="button" id="lan-add-btn" class="btn btn-outline-dark btn-sm me-3 ms-3" disabled>Aggiungi riga</button><button type="button" id="lan-delete-btn" class="btn btn-outline-dark btn-sm" disabled>Elimina riga</button>
+                        </div>
+                        <ul id="lan" class="list-group list-group-flush">
+                            <li class="list-group-item">
+
+                                <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                                <label class="form-check-label" for="checkDefault">
+                                    <span id="lan-date-1"></span>
+                                </label>
+
+                            </li>
+                            <button type="button" id="lan-btn-1" class="btn btn-outline-dark btn-sm">Modifica</button>
+
+                            <li class="list-group-item">
+
+                                <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                                <label class="form-check-label" for="checkDefault">
+                                    <span id="lan-date-2"></span>
+                                    
+                                </label>
+
+                            </li>
+                            <button type="button" id="lan-btn-2" class="btn btn-outline-dark btn-sm">Modifica</button>
+                            <li class="list-group-item">
+
+                                <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                                <label class="form-check-label" for="checkDefault">
+                                    <span id="lan-date-3"></span>
+                                </label> 
+                                
+                                
+                            </li>
+                            <button type="button" id="lan-btn-3" class="btn btn-outline-dark btn-sm">Modifica</button>
+                        
+                            <li class="list-group-item">
+
+                                <input class="form-check-input" type="checkbox" value="" id="checkDefault">
+                                <label class="form-check-label" for="checkDefault">
+                                    <span id="lan-date-4"></span>
+                                </label> 
+                                
+                                
+                            </li>
+                            <button type="button" id="lan-btn-4" class="btn btn-outline-dark btn-sm">Modifica</button>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
+
+    <script src="./main.js"></script>
+</body>
+</html>
